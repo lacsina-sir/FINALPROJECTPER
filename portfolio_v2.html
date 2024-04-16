@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Portfolio</title>
+  <style>
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+      background-color: #5090b6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    header {
+      background-color: #13111f;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px 0;
+    }
+
+    .about-me {
+      background-color: #5ba6d8;
+      padding: 40px 0;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .profile img {
+      width: 300px;
+      height: 300px;
+      border-radius: 8px;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+
+    .social-media-links {
+    text-align: center;
+    margin-top: 20px;
+    }
+
+    .social-media-links a {
+    display: inline-block;
+    margin:  10px; 
+    }
+
+    .social-media-links img {
+    width: 30px; 
+    height: auto;
+    }
+
+    .skill img {
+      width: 100px;
+      height: 100px;
+    }
+    .skills, .projects {
+      background-color: #4c7499;
+      padding: 40px 0;
+    }
+
+    .skills h2, .projects h2 {
+      text-align: center;
+    }
+
+    .skill-list, .project-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .skill, .project {
+      width: calc(33.33% - 20px);
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .skill h3, .project h3 {
+      margin-bottom: 10px;
+    }
+
+    .skill-level, .project img {
+      width: 100%;
+    }
+
+    .project-details {
+      padding: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+
+  <main>
+
+    <section class="about-me">
+      <div class="container">
+        <div class="profile">
+          <img src="profile-picture.jpg" alt="Profile Picture">
+          <div class="details">
+            <h2>Issey Lacsina</h2>
+            <p>Web Developer & Designer sa Dream</p>
+            <p>I'm a second-year IT student at the University of the Cordilleras.Think of me as a level 2 player in the game of IT, where coding is like an epic quest, and debugging is just a side mission.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="about-me">
+  <div class="container">
+    
+    <p>Connect with me:</p>
+    <div class="social-media-links">
+      <a href="https://www.facebook.com/profile.php?id=100069742759449" target="_blank"><img src="facebook.png" alt="facebook"></a>
+      <a href="https://github.com/sebiegg" target="_blank"><img src="github.png" alt="GitHub"></a>
+      <a href="https://twitter.com/sebeegg" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+      
+    </div>
+  </div>
+</section>
+
+    <section class="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-list">
+          <div class="skill">
+            <img src="html-icon.png" alt="HTML Icon">
+            <h3>HTML</h3>
+            <div class="skill-level" data-level="80"></div>
+          </div>
+          <div class="skill">
+            <img src="css-icon.png" alt="Css Icon">
+            <h3>CSS</h3>
+            <div class="skill-level" data-level="75"></div>
+          </div>
+          <div class="skill">
+            <img src="js-icon.png" alt="js Icon">
+            <h3>JavaScript</h3>
+            <div class="skill-level" data-level="70"></div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-list">
+          <div class="project">
+            <img src="project1-thumbnail.png" alt="Project 1">
+            <div class="project-details">
+              <h3>Project 1</h3>
+              <p>Progress Bar</p>
+              <a href="https://sebiegg.github.io/ProgressBar/ProgressBar.html">View Project</a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="project2-thumbnail.png" alt="Project 2">
+            <div class="project-details">
+              <h3>Project 2</h3>
+              <p>GRADE</p>
+              <a href="https://sebiegg.github.io/Grade/Grade.html">View Project</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section class="about-me">
+      <div class="container">
+        <h2>More About Me</h2>
+        <p>💻 Skill Level: 2 (still a noob, but leveling up daily)</p>
+  
+    <p>Hello! I'm Sebi Egg, a second-year IT student at the University of the Cordilleras. I'm passionate about technology and eager to learn and grow in the field of web development.</p>
+    <p>🌱 <strong>Learning Journey:</strong> I'm on a journey of exploration and discovery, diving into various programming languages and tools to broaden my skills and deepen my understanding of software development.</p>
+    <p>🚀 <strong>Career Aspirations:</strong> While still early in my academic journey, I'm excited about the possibilities that lie ahead. I aspire to embark on a career as a web developer, leveraging my skills to create engaging and user-friendly websites and applications.</p>
+    <p>🌟 <strong>Interests:</strong>I enjoy exploring new technologies, tinkering with code, and collaborating with classmates on coding projects. Outside of IT, I'm passionate about music and gaming.</p>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Sebibe - All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const skillLevels = document.querySelectorAll(".skill-level");
+
+      skillLevels.forEach(skill => {
+        const level = skill.dataset.level;
+        skill.style.width = level + "%";
+      });
+    });
+  </script>
+</body>
+</html>
